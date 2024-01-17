@@ -1,6 +1,6 @@
 <img src="chrome/images/icon-128.png" width="128"/>
 
-This chrome extension simply removes anyone who thinks they're too sunny
+These chrome and firefox extensions simply removes anyone who thinks they're too sunny
 since they can be quite annoying.
 
 2 versions available - Chrome and Firefox
