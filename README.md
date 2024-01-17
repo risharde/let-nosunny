@@ -1,4 +1,4 @@
-<img src="images/icon-128.png" width="128"/>
+<img src="chrome/images/icon-128.png" width="128"/>
 
 This chrome extension simply removes anyone who thinks they're too sunny
 since they can be quite annoying.
@@ -18,4 +18,4 @@ CHROME INSTALL INSTRUCTIONS
 3. Click on the 'Load unpacked' button
 4. Choose the directory you downloaded the files to.
 
-Now head over to LET, refresh the site and enjoy no sunny.
+Now head over to LET, refresh the site and avoid too sunnys.
