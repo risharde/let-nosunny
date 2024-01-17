@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "LET - No sunny",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Remove annoying sunny posts",
 
   "icons": {
@@ -9,7 +9,7 @@
   },
   "content_scripts": [
     {
-      "js": ["scripts/jquery-3.7.1.min.js", "scripts/content.js"],
+      "js": ["scripts/content.js"],
       "matches": [
         "https://lowendtalk.com/*/*/*",
         "https://lowendtalk.com/*/*/*/*"
