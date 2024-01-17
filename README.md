@@ -1,4 +1,4 @@
-<img src="images/icon-128.png" width="128"/>
+<img src="firefox/images/icon-128.png" width="128"/>
 
 This chrome extension simply removes anyone who thinks they're too sunny
 since they can be quite annoying.
