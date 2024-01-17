@@ -1,8 +1,7 @@
 <img src="images/icon-128.png" width="128"/>
 
-This chrome extension simply removes sunny's posts
-since they can be quite annoying or filled with unnecessary drama
-on LET.
+This chrome extension simply removes anyone who thinks they're too sunny
+since they can be quite annoying.
 
 INSTALL INSTRUCTIONS
 1. Clone or Download the files to a directory on your machine
