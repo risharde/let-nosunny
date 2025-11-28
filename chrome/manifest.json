@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "LET - No sunny",
-    "version": "1.0",
-    "description": "Remove annoying sunny posts",
+    "version": "2.0",
+    "description": "Remove annoying no-sunny type people's posts because they're idiots",
   
     "icons": {
       "16": "images/icon-16.png",
