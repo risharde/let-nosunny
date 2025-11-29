@@ -5,7 +5,7 @@ $(document).ready(function (){
     if (hidden_authors) {
         hidden_authors = JSON.parse(hidden_authors);
     } else {
-        hidden_authors = ['yoursunny', 'tototo', 'DeadlyChemist', 'levi'];
+        hidden_authors = ['yoursunny', 'tototo', 'DeadlyChemist', 'levi', 'jmgcaguicla'];
     }
     if (hidden_authors.includes('risharde')) {
         hidden_authors.splice(hidden_authors.indexOf('risharde'), 1);
