@@ -1,5 +1,6 @@
 var hidden_authors = [];
 $(document).ready(function (){
+    console.log('let-nosunny loaded successfully');
     var page_container = $('#Frame');
     hidden_authors = localStorage.getItem('hidden_authors');
     if (hidden_authors) {
