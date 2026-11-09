@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "LET - No sunny",
-    "version": "4.0",
+    "version": "5.0",
     "description": "Remove annoying no-sunny type people's posts because they're morons",
   
     "icons": {
@@ -12,7 +12,7 @@
     },
     "content_scripts": [
       {
-        "js": ["scripts/jquery-3.7.1.min.js", "scripts/content.js"],
+        "js": ["includes/jquery-3.7.1.min.js", "includes/jquery-ui.min.js", "includes/content.js"],
         "matches": [
           "https://lowendtalk.com/*",
           "https://lowendtalk.com/*/*",
