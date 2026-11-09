@@ -53,14 +53,14 @@ $(document).ready(function (){
     $(document).on('click', '#notsunny-block-moron', function() {
         var content_html = '<label for="notsunny-author-input">Enter the username of the moron to block:</label><br>';
         content_html += '<input type="text" id="notsunny-author-input" name="notsunny-author-input"><br>';
-        content_html += '<button id="notsunny-confirm-block">Block</button>';
+        content_html += '<button class="notsunny-button" id="notsunny-confirm-block">Block</button>';
         notsunny_center_modal(content_html);
     });
 
     $(document).on('click', '#notsunny-unblock-moron', function() {
         var content_html = '<label for="notsunny-author-unblock-input">Enter the username of the moron to unblock:</label><br>';
         content_html += '<input type="text" id="notsunny-author-unblock-input" name="notsunny-author-unblock-input"><br>';
-        content_html += '<button id="notsunny-confirm-unblock">Unblock</button>';
+        content_html += '<button class="notsunny-button" id="notsunny-confirm-unblock">Unblock</button>';
         notsunny_center_modal(content_html);
     });
 
@@ -98,7 +98,7 @@ $(document).ready(function (){
         var modal_html = '<div id="notsunny-modal-overlay" style="position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); display:flex; align-items:center; justify-content:center; z-index:1000;">';
         modal_html += '<div id="notsunny-modal-content" style="background-color:#fff; padding:20px; border-radius:5px; max-width:400px; width:100%;">';
         modal_html += content_html;
-        modal_html += '<br><button id="notsunny-modal-close">Close</button>';
+        modal_html += '<button class="notsunny-button" id="notsunny-modal-close">Close</button>';
         modal_html += '</div></div>';
         $('body').append(modal_html);
     }
